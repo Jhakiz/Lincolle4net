@@ -10,7 +10,7 @@ namespace Lincolle4net.Tests
     {
 
         [TestMethod]
-        public void ValuedFilter()
+        public void ValuedQueryableFilter()
         {
             var filter = "DRC";
             var countries = (new List<string>() { "USA", "DRC", "Uganda" })
@@ -22,7 +22,7 @@ namespace Lincolle4net.Tests
         }
 
         [TestMethod]
-        public void NullOrEmptyFilter()
+        public void NullOrEmptyQueryableFilter()
         {
             var filter = string.Empty;
             var countries = (new List<string>() { "DRC", "Uganda", "USA" })
