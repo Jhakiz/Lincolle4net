@@ -1,9 +1,35 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <TargetFrameworks>net45;netstandard2.0;netstandard2.1;netcoreapp3.1;net5.0;net6.0</TargetFrameworks>
+    <!--<ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-  </PropertyGroup>
+    <IsPackable>false</IsPackable>-->
+    <Title>Lincolle4net</Title>
+    <Product>Lincolle4net</Product>
+    <Description>Lincolle4net is a .NET library which exposed some methods as extension; which apply inline tests before perfoming some operations on generics and collections.</Description>
+    <Summary>Lincolle4net is a .NET library which exposed some methods as extension; which apply inline tests before perfoming some operations on generics and collections.</Summary>
+    <PackageProjectUrl>https://github.com/Jhakiz/Lincolle4net</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Jhakiz/Lincolle4net</RepositoryUrl>
+    <PackageTags>c# filter;c-sharp extension-methods;if-statements;addif;whereif;removeif;inline-if-statements</PackageTags>
+    <Authors>Jean HAKIZA</Authors>
+    <RepositoryType></RepositoryType>
+    <Copyright>Copyright © Jean HAKIZA 2022</Copyright>
+    <PackageReleaseNotes>This version supports only WhereIf on List, Enumerable, Queryable, Stack, Dictionary, Collection.</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <AssemblyName>Lincolle4net</AssemblyName>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
+  
+</PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

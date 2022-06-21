@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lincolle4net", "Lincolle4net\Lincolle4net.csproj", "{73DEE913-6891-48DA-A336-BCAD599BCF9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lincolle4net.Tests", "Lincolle4net.Tests\Lincolle4net.Tests.csproj", "{F338A189-9E49-4DEB-9F78-F655E7F371F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lincolle4net.Tests", "Lincolle4net.Tests\Lincolle4net.Tests.csproj", "{F338A189-9E49-4DEB-9F78-F655E7F371F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{C446530D-D8D9-4E01-9279-EF1B6720C872}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
