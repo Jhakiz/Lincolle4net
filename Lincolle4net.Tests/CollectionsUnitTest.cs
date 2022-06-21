@@ -48,7 +48,7 @@ namespace Lincolle4net.Tests
         {
             var filter = "da";
             var data = new List<string>() { "Canada", "DRC", "Uganda", "USA" };
-
+            
             var countries = ((ICollection<string>)(data))
                 .WhereIf(!string.IsNullOrEmpty(filter), c => c.Contains(filter));
 
@@ -64,13 +64,13 @@ namespace Lincolle4net.Tests
                 { "test", "val" },
                 { "test2", "val2" }
             };
-            var filter = "da";
+            var filter = "va";
 
             var data = dic
-                .WhereIf(!string.IsNullOrEmpty(filter), c => c.Value == filter);
+                .WhereIf(!string.IsNullOrEmpty(filter), c => c.Value.StartsWith(filter));
 
             Assert.IsFalse(string.IsNullOrEmpty(filter));
-            Assert.AreEqual(data.Count(), 0);
+            Assert.AreEqual(data.Count(), 2);
 
             filter = "val";
              data = dic

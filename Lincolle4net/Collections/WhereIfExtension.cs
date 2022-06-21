@@ -1,4 +1,6 @@
-﻿namespace System.Collections.Generic
+﻿using System.Linq;
+
+namespace System.Collections.Generic
 {
     public static class WhereIfExtension
     {
